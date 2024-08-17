@@ -1,0 +1,23 @@
+.main__navbar {
+  padding: 15px 0px;
+  background: #000d6b;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 2.7rem;
+}
+
+.nav__item {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav__item:hover {
+  color: #f9a826;
+}
+
+.nav__active {
+  color: #f9a826;
+}
